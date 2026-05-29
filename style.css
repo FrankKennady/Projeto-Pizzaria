@@ -486,7 +486,7 @@ footer {
 
     /* Ajuste da grade de produtos */
     ul {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
         padding: 0 10px;
     }
 
