@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Pizzaria Melhor do Mundo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="./index.html"><img class="logo" src="./assets/logo.png" alt="logo"></a>
+            <div class="menu">
+                <a href="./cardapio.html">Cardápio</a>
+                <a href="./pedido.html">Fazer Pedido</a>
+                <a href="./sobre.html">Sobre Nós</a>
+                <a href="./contatos.html">Contatos</a>
+
+            </div>
+        </nav>
+  
+        <hr class="linha-degrade">
+        <section class="pedido">
+            <h1>Faça seu Pedido</h1>
+            <form class="pedido-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+                <label for="address">Endereço:</label>
+                <input type="text" id="address" name="address" required placeholder="Digite seu endereço">
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Digite seu telefone">
+
+                <label for="order">Pedido:</label>
+                <textarea id="order" name="order" rows="4" required placeholder="Descreva seu pedido"></textarea>
+
+                <button id="btn-order" type="submit">Enviar Pedido</button>
+            </form>
+
+            </section>
+        <footer>© Desenvolvido por Frank Kennady</footer>
+    </main>
+
+    <script src="./product.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
