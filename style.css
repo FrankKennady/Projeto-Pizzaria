@@ -439,6 +439,61 @@ footer {
 
 
 /*------------------ responsividade ------------------*/
+
+/* Ajuste para telas entre 451px e 979px */
+@media screen and (min-width: 451px) and (max-width: 979px) {
+    /* Ajuste do header */
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Ajuste da tela inical */
+    .information h1 {
+        font-size: 40px;
+    }
+
+    .information {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .butons {
+        flex-direction: column;
+        gap: 20px;
+        padding: 12px 15px;
+    }
+
+    /* Ajuste do menu */
+    .menu {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .menu a {
+        display: flex;
+        align-items: center;
+        padding: 10px 16px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Ajuste dos botões do cardápio */
+    .buton-cardapio button {
+        padding: 5px 9px;
+        font-size: 15px;
+        gap: 5px;
+    }
+
+    /* Ajuste da grade de produtos */
+    ul {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5px 15px;
+    }
+
+
+}
+
 @media screen and (max-width: 450px) {
 
      /* Ajuste do header */
@@ -521,57 +576,4 @@ footer {
     }
 
    
-}
-/* Ajuste para telas entre 451px e 979px */
-@media screen and (min-width: 451px) and (max-width: 979px) {
-    /* Ajuste do header */
-    nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    /* Ajuste da tela inical */
-    .information h1 {
-        font-size: 40px;
-    }
-
-    .information {
-        width: 80%;
-        margin-top: 10px;
-    }
-
-    .butons {
-        flex-direction: column;
-        gap: 20px;
-        padding: 12px 15px;
-    }
-
-    /* Ajuste do menu */
-    .menu {
-        margin-left: 10px;
-        margin-bottom: 5px;
-    }
-
-    .menu a {
-        display: flex;
-        align-items: center;
-        padding: 10px 16px;
-        font-size: 13px;
-        text-align: center;
-    }
-
-    /* Ajuste dos botões do cardápio */
-    .buton-cardapio button {
-        padding: 5px 9px;
-        font-size: 15px;
-        gap: 5px;
-    }
-
-    /* Ajuste da grade de produtos */
-    ul {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 5px 15px;
-    }
-
-
 }
