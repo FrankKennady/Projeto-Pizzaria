@@ -30,7 +30,7 @@ Você pode visualizar o projeto funcionando através do link abaixo:
 ## 👨‍💻 Desenvolvedor
 Projeto desenvolvido por **Frank Kennady**.
 
-* **LinkedIn:** (https://www.linkedin.com/in/frank-kennady-284685256/)
+* **LinkedIn:** https://www.linkedin.com/in/frank-kennady-284685256/
 
 ---
 *Se você gostou deste projeto, não esqueça de deixar uma ⭐!*
